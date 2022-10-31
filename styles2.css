@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body{
+    width: 50em;
+    margin: 0 auto;
+
+}
+
+#nav1 {
+    width: 15%;
+    background-color: lightgray;
+    position: fixed;
+    overflow: auto;
+    height: 100%;
+    top: 0;
+    left: 0;
+    
+}
+
+#nav2 {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 15%;
+    height: 3em;
+    z-index: 1;
+    margin: 0 auto;
+    display: flex;
+    border-bottom: 0.1em solid gray;
+    background-color: lightgray;
+}
+
+#nav3 {
+    position: fixed;
+    top: 3em;
+ background-color: gray;
+    left: 15%;
+    width: 90%;
+    height: 2em;
+    z-index: 1;
+    overflow: auto;
+    align-items: center;
+}
+
+#nav3 ul {
+    display: flex;
+    overflow: auto;
+    margin-left: 5em;
+    justify-content: space-between;
+    margin-top: 0.4em;
+
+  
+}
+
+#nav3 ul li {
+    
+    font-size: 1em;
+    min-width: 6.5em;
+ 
+}
+
+ul {
+    list-style: none;
+}
+
+#nav1 li{
+    margin: 20%;
+}
+
+main {
+    width: 80%;
+    position: fixed;
+    left: 15%;
+    top: 10%;
+    overflow: scroll;
+    height: 100%;
+}
+
+#video-container {
+    display: flex;
+    margin: 2em auto;
+    width: 85%;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+
+/*nav2*/
+
+.search-form {
+    display: flex;
+    height: 2em;
+    margin: 0.5em;
+    width: 50%;
+    margin: 0.5em;
+    margin-left: 5.5em;
+}
+
+#search-input {
+    width: 90%;
+    padding-left: 1em;
+    border-style: none;
+    
+}
+
+.search-button {
+    width: 10%;
+    font-size: 1rem;
+    border-style: none;
+    
+}
+
+.nav2-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    align-items: center;
+}
+
+.mic{
+    justify-content: flex-start;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2em;
+}
+
+/*
+#search-input{
+    width: 68%;
+    display: block;
+    height: 100%;
+    margin-left: 5.2em;
+    margin-top: 0.5em;
+}
+
+
+.search-button {
+    top: 0.5em;
+    right: 25%;
+    z-index: 4;
+    width: 2em;
+    height: 2em;
+}
+
+*/
+
+
+
+/*card*/
+
+.video-template{
+    width: 100%;
+    
+}
+
+.video-image {
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+
+.video-card {
+    display: flex;
+}
+
+.account-logo {
+    width: 15%;
+    margin-right: 0.5em;
+}
+
+.account-image{
+    width: 100%;
+}
+
+
+.video-info h3 {
+    font-size: 1em;
+    margin-bottom: 0.2em;
+    
+}
+
+.video-info h5 {
+    font-size: 0.5em;
+    color: darkgray;
+}
+
+.video-info h6 {
+    font-size: 0.6em;
+    color: darkgray;
+}
