@@ -22,6 +22,11 @@ body{
     
 }
 
+.logo h1 {
+    font-size: 28px;
+    padding: 8%;
+}
+
 #nav2 {
     width: 100%;
     position: fixed;
